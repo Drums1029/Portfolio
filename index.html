@@ -2,22 +2,107 @@
 <head>
   <meta charset="UTF-8">
   <title>ポートフォリオ</title>
+<style>
+  .nav {
+    background-color: #041029;
+  }
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+  .nav li {
+    flex: 1;
+    border-right: 1px solid #bbb;
+  }
+  .nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .img1{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+  }
+  h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:0;
+    margin:0;
+  }
+</style>
 </head>
+
 <body>
+  <header>
+    <div class="nav">
       <nav>
         <ul>
-          <li><a href="./index.html">TOP</a></li>
-          <li>このサイトについて</li>
-          <li>ポートフォリオ</li>
-          <li>連絡先</li>
+          <li><a href="#top">TOP</a></li>
+          <li><a href="#about-this-site">About this site</a></li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#profile">Profile</a></li>
         </ul>
       </nav>
+    </div>
+  </header>
+  
+      <img src="./pic/top.jpg" alt="TOP画像" class="img1" id="top">
+      <h1><span style="font-size:500%"><span style="color: white">THIS IS MY LIFE</span></span></h1>
+
+      <h2 id="about-this-site">About this site</h2>
+      <p>
+        このサイトは2024年度秋学期『情報科学研究法』の授業の課題として作成された三輪剛士のポートフォリオです。<br>
+        私が今までどのような人生を送ってきたのか、どんな趣味嗜好があるのか知っていただけたら幸いです。<br>
+      </p>
+
+      <h2 id="about-me">About Me</h2>
+      <p>
+        名前は<span style="font-size: 150%;"><b><ruby>三輪 剛士<rt>みわ つよし</rt></ruby></b></span>と申します。<br>
+        2004年10月29日生まれ 東京都練馬区出身の20歳です。<br>
+        現在は早稲田大学人間科学部人間情報科学科に所属しています。<br>
+      </p>
+
+      <h2 id="profile">Profile</h2>
+      <h3>2004年</h3>
+      <p>
+        埼玉県和光市で生まれ出づる。<br>
+      </p>
+      <h3>2009年</h3>
+      <p><strong><mark>幼稚園で最大のモテ期を送る</mark></strong></p>
+      <h3>2011年~2016年</h3>
+      <p>
+        <span style="font-size: 150%;"><ruby>東京学芸大学附属大泉小学校<rt>とうきょうがくげいだいがくふぞくおおいずみしょうがっこう</rt></ruby></span>に入学。<br>
+        <span style="font-size: 120%;"><em><b>夏も冬も半ズボン</b></em></span>の制服に6年間耐え忍び、水着は<span style="font-size: 125%;"><em><b><span style="color: red;">赤ふんどし</span></b></em></span>という伝統ある(悪くいうと時代おくr...)小学校を卒業。
+      </p>
+
+      <h3>2017年~2022年</h3>
+      <p>
+        小学校と同敷地にある<span style="font-size: 125%;"><ruby>東京学芸大学附属国際中等教育学校<rt>とうきょうがくげいだいがくふぞくこくさいちゅうとうきょういくがっこう</rt></ruby></span>に入学。<br>
+        生徒の半数が帰国子女のグローバル色豊かな中高一貫校で英語と日本語が混じったnew言語が飛び交う。
+      </p>
+      
+      <h3>2023年~</h3>
+      <p>
+        第一志望であった<span style="font-size: 125%;">早稲田大学人間科学部人間情報科学科</span>に入学<br>
+        所沢の豊かな大地ですくすく育つ。
+      </p>
 
   
   <footer>
     <address>作成者：三輪剛士 tsuyoshimiwa@suou.waseda.jp</address>
-    <p class="days">作成日：<time>2025-01-16</time> 更新日：<time>2025-01-16</time></p>
-    <p><small>&copy; 2025 Tsuyoshi Miwa</small></p>
+    <p>作成日：<time>2024-01-16</time> 更新日：<time>2024-01-17</time></p>
+    <p><small>&copy; 2024 Tsuyoshi Miwa</small></p>
   </footer>
 </body>
 </html>
